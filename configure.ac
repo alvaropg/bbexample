@@ -19,6 +19,9 @@ AM_PROG_LIBTOOL
 AC_DISABLE_STATIC
 AC_ENABLE_SHARED
 
+# Checking for modules
+PKG_CHECK_MODULES([BBEXAMPLE], [glib-2.0 gio-2.0])
+
 # Checks for header files.
 
 # Checks for typedefs, structures, and compiler characteristics.
